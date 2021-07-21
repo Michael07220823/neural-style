@@ -1,0 +1,5 @@
+python neural_style.py --content examples/input/eagle-2.jpg --styles style/中國畫.jpg --iterations 2000 --style-scales 1.0 --learning-rate 5.0 --output examples/output/eagle-2-中國畫.jpg --overwrite
+python neural_style.py --content examples/input/eagle-2.jpg --styles style/點描派.jpg --iterations 2000 --style-scales 1.0 --learning-rate 5.0 --output examples/output/eagle-2-點描派.jpg --overwrite
+python neural_style.py --content examples/input/eagle-2.jpg --styles style/水墨畫.jpg --iterations 2000 --style-scales 1.0 --learning-rate 5.0 --output examples/output/eagle-2-水墨畫.jpg --overwrite
+python neural_style.py --content examples/input/eagle-2.jpg --styles style/後期印象主義-4.jpg --iterations 2000 --style-scales 1.0 --learning-rate 5.0 --output examples/output/eagle-2-後期印象主義-4.jpg --overwrite
+python neural_style.py --content examples/input/eagle-2.jpg --styles style/野獸派-4.jpg --iterations 2000 --style-scales 1.0 --learning-rate 5.0 --output examples/output/eagle-2-野獸派-4.jpg --overwrite
