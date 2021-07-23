@@ -1,3 +1,6 @@
+# Usage
+# python resize_image.py examples/input/asia_unversity.jpg 512
+
 import os
 import sys
 import cv2
@@ -11,7 +14,7 @@ if not os.path.exists(image_path):
     print("Image not existsed !")
 
 image = cv2.imread(image_path)
-resize_image = imutils.resize(image, width=500)
+resize_image = imutils.resize(image, width=int(sys.argv[2]))
 cv2.imwrite(new_image_path, resize_image)
 
 print("Resized {} successfully !".format(image_path))
